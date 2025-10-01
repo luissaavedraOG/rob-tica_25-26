@@ -2,7 +2,7 @@
 Este es cuaderno de robótica de 4 ESO, curso 2025-2026
 
 
-# 1<sup>er<sub>  proyecto: arduino doble intermitente
+# 1<sup>er<sub> proyecto: Arduino doble intermitente
 
 ## -Placa arduino y protoboard
 
