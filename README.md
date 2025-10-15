@@ -4,6 +4,8 @@ Este es cuaderno de robótica de 4 ESO, curso 2025-2026
 
 ## Proyecto 1: Arduino doble intermitente
 
+Al iniciarlo los leds parpadean en intermitencia, primero uno ,luego el otro; pero  la maxima velocidad que percibe el ojo humano.
+
 ### -Placa arduino y protoboard:
 
 <p align="center">
@@ -49,6 +51,12 @@ void loop() {
   delay(retardo);              // Retardo
 }
 ```
+
+__Explicacion del codigo:__
+
+> #define terminal12 12 // Al terminal 12 lo llamamos terminal12
+
+>  #define terminal13 13 // Al terminal 13 lo llamamos terminal13
 
 ## Proyecto 2: Pulsador
 
