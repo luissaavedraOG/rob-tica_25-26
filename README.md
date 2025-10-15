@@ -11,7 +11,41 @@ He utilizado lo puertos 11 y 10, el 11 para el rojo y el 10 para el azul, los do
 
 ### -Codigo:
 
+```
+/*
+  Luis javier Saavedra Guerrero
+  
+*/
 
+
+#define terminal12 12 // Al terminal 12 lo llamamos terminal12
+#define terminal13 13 // Al terminal 13 lo llamamos terminal13
+
+// En el setup establecemos los parámetros iniciales.
+void setup() {
+  // Los terminales pueden ser de entrada INPUT o de salidas OUTPUT
+  // En este caso serán de salidas.
+  // Fíjate que las líneas terminan en punto y coma;
+  pinMode(10, OUTPUT);
+  pinMode(11, OUTPUT);
+}
+
+int retardo=60;
+
+// Esto es un loop, un lazo o bucle.
+// Lo que hay dentro de loop ser repite continuamente, es decir hace las líneas de su interior y
+// luego vuelve a realizarlas.
+void loop() {
+  digitalWrite(10, HIGH);   // El terminal12 en ALTO, es decir a 5 V
+  digitalWrite(11, LOW);    // El terminal13 en BAJO, es decir a 0 V
+  Serial.println("Parpadeo");
+  delay(retardo);              // Retardo
+  digitalWrite(10, LOW);    // El terminal12 en BAJO, es decir a 0 V
+  digitalWrite(11, HIGH);   // El terminal13 en ALTO, es decir a 5 V
+  Serial.println("Intermitente");
+  delay(retardo);              // Retardo
+}
+```
 
 ## Proyecto 2: Pulsador
 
