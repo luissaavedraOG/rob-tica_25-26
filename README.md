@@ -19,7 +19,9 @@ Al pulsar el pulsador, un led que siempre estara encendido se apagara y el otro 
 
 ### -Placa arduino y protoboard:
 
-
+<p align="center">
+<img src="imagenes_rob/3.-Pulsador.png" width="1000" height="700" />
+</p>
 
 ### -Codigo:
 
