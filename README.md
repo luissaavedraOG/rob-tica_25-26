@@ -15,7 +15,7 @@ He utilizado lo puertos 11 y 10, el 11 para el rojo y el 10 para el azul, los do
 
 ## Proyecto 2: Pulsador
 
-Al pulsr el pulsador un led se apaga y otro se enciende
+Al pulsar el pulsador, un led que siempre estara encendido se apagara y el otro que siempre esta pagado se encendera
 
 ### -Placa arduino y protoboard:
 
