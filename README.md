@@ -54,9 +54,9 @@ void loop() {
 
 __Explicacion del codigo:__
 
-> #define terminal12 12 // Al terminal 12 lo llamamos terminal12
+#define terminal12 12 // Al terminal 12 lo llamamos terminal12
 
->  #define terminal13 13 // Al terminal 13 lo llamamos terminal13
+#define terminal13 13 // Al terminal 13 lo llamamos terminal13
 
 ## Proyecto 2: Pulsador
 
