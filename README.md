@@ -121,7 +121,7 @@ Con el potenciómetro podemos obtener 1024 niveles distintos que podemos variar 
 ###-placa arduino y protoboar
 
 <p align="center">
-<img src="imagenes_rob/Potenciometro0.png" width="1000" height="700" />
+<img src="imagenes_rob/Potenciometro0.png" width="600" height="600" />
 </p>
 <p align="center">
 <img src="imagenes_rob/Potenciometro511.png" width="1000" height="700" />
