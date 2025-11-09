@@ -114,11 +114,11 @@ if (valor2 == LOW) {
 ```
 
 
-##5.-Potenciómetro.Mapeo monitor serie
+## 5.-Potenciómetro.Mapeo monitor serie
 
 Con el potenciómetro podemos obtener 1024 niveles distintos que podemos variar girandolo
 
-###-placa arduino y protoboar
+### -placa arduino y protoboar
 
 <p align="center">
 <img src="imagenes_rob/Potenciometro0.png" width="600" height="600" />
@@ -136,7 +136,7 @@ Para introducir valores del 0 al 1023 tenemos que usar las entradas analógicas,
 En el monitor en serie podemos ver la intensidad en la que hemos puesto el potenciómetro.
 
 
-###-Codigo
+### -Codigo
 
 ```
 /*
@@ -166,9 +166,9 @@ void loop() {
 }
 ```
 
-##6.-PWD
+## 6.-PWD
 
-###-placa arduino y protoboar
+### -placa arduino y protoboar
 <p align="center">
 <img src="imagenes_rob/6.-PMW_ft.jpg" width="600" height="600" />
 </p>
