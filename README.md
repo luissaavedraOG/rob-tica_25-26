@@ -112,3 +112,56 @@ if (valor2 == LOW) {
 }
 
 ```
+
+
+##5.-Potenciómetro.Mapeo monitor serie
+
+Con el potenciómetro podemos obtener 1024 niveles distintos que podemos variar girandolo
+
+###-placa arduino y protoboar
+
+<p align="center">
+<img src="imagenes_rob/3.-Potenciometro0.png" width="1000" height="700" />
+</p>
+<p align="center">
+<img src="imagenes_rob/3.-Potenciometro511.png" width="1000" height="700" />
+</p>
+<p align="center">
+<img src="imagenes_rob/3.-Poteniometro1023.png" width="1000" height="700" />
+</p>
+
+
+Para introducir valores del 0 al 1023 tenemos que usar las entradas analógicas, en este caso la A2, mientras tanto conectamos los otros 2 a los 5V y al GND para proporcionar energía.
+
+En el monitor en serie podemos ver la intensidad en la que hemos puesto el potenciómetro.
+
+
+###-Codigo
+
+```
+/*
+  Luis Saavedra
+ */
+ 
+int P2 = A2; // ANALOG IN: A2, va al terminal intermedio del potenciómetro.
+float valor = 0;
+float deceroauno;
+ 
+void setup() {
+   // Los terminales ANALOG IN no hay que configurarlos porque siempre son de entrada.
+   Serial.begin(9600);
+}
+ 
+void loop() {
+   valor = analogRead(P2);
+   Serial.println(valor);
+   
+   // deceroauno = valor / 1023;
+   // Serial.println(deceroauno);
+   
+   // valor = map(valor, 0, 1023, 48, 2468);
+   // Serial.println(valor);
+   
+   delay(20);
+}
+```
