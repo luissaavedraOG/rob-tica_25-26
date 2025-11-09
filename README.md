@@ -165,3 +165,13 @@ void loop() {
    delay(20);
 }
 ```
+
+##6.-PWD
+
+###-placa arduino y protoboar
+<p align="center">
+<img src="imagenes_rob/6.-PMW_ft.jpg" width="600" height="600" />
+</p>
+<p align="center">
+<img src="imagenes_rob/PMW_vid.mp4" width="600" height="600" />
+</p>
