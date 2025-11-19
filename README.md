@@ -176,3 +176,23 @@ void loop() {
 <p align="center">
 <img src="imagenes_rob/6.-PWM_vid.mp4" width="600" height="600" />
 </p>
+
+´´
+int LED1=6;
+int potenciometro = A2; int cantidadluz;
+int valorpotenciometro;
+
+void setup() {
+  pinMode(LED1, OUTPUT);
+  Serial.begin(9600);
+}
+
+void loop(){
+  valorpotenciometro = analogRead(potenciometro);
+  cantidadluz = map(valor potenciometro, 0, 824, 0, 255);
+  analogWrite(LED1, cantidadluz);
+  Serial.print("valorpotenciometro: "); Serial.print(valorpotenciometro);           Serial.print(" cantidadluz: "); Serial.print(cantidadluz);
+  Serial.println();
+    delay(20);
+}
+´´
