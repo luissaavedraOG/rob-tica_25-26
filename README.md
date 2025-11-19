@@ -177,7 +177,7 @@ void loop() {
 <img src="imagenes_rob/6.-PWM_vid.mp4" width="600" height="600" />
 </p>
 
-´´
+```
 int LED1=6;
 int potenciometro = A2; int cantidadluz;
 int valorpotenciometro;
@@ -195,4 +195,4 @@ void loop(){
   Serial.println();
     delay(20);
 }
-´´
+```
