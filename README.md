@@ -196,3 +196,31 @@ void loop(){
     delay(20);
 }
 ```
+
+#include "Ultrasonic.h"
+
+int LED = 7;
+int TRIG_PIN = 4;
+int ECHO_PIN = 3;
+
+Ultrasonic distancia(TRIG_PIN, ECHO_PIN 60000);
+
+int cantidadluz;
+int distancia;
+
+void setup() {
+  pinMode(LED1, OUTPUT);
+  Serial.begin(9600);
+}
+
+
+ultrasonido led
+
+void loop(){
+  valorpotenciometro = analogRead(potenciometro);
+  cantidadluz = map(valor potenciometro, 0, 824, 0, 255);
+  analogWrite(LED1, cantidadluz);
+  Serial.print("valorpotenciometro: "); Serial.print(valorpotenciometro);           Serial.print(" cantidadluz: "); Serial.print(cantidadluz);
+  Serial.println();
+    delay(20);
+  
