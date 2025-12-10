@@ -224,3 +224,25 @@ void loop(){
   Serial.println();
     delay(20);
   
+
+servo + potenciometro
+
+#include <Servo.h>
+Servo servomotor;
+int pinservo = 6;
+int potenciometro = A2; 
+int posicionservo = 0;
+int valorpotenciometro;
+
+void setup() {
+  pinMode(pinservo, OUTPUT);
+  servomotor.attach(pinservo);
+}
+
+void loop(){
+  valorpotenciometro = analogRead(potenciometro);
+  posicionservo = map(valorpotenciometro, 0, 1023, 0, 180);
+  servomotor.write(posicionservo);
+  
+    delay(20);
+}
