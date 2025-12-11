@@ -227,7 +227,7 @@ void loop(){
 
 servo + potenciometro
 
-#include <Servo.h>
+```#include <Servo.h>
 Servo servomotor;
 int pinservo = 6;
 int potenciometro = A2; 
@@ -246,3 +246,4 @@ void loop(){
   
     delay(20);
 }
+```
