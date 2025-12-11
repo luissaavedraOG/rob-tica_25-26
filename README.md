@@ -173,19 +173,6 @@ void loop() {
 <img src="imagenes_rob/6.-PWMft.jpg" width="600" height="600" />
 </p>
 
-<p align="center">
-<img src="imagenes_rob/6.-PWM_vid.mp4" width="600" height="600" />
-</p>
-
-
-
-## 25.- Ultrasonidos
-
-### -Placa arduino y protoboard:
-
-[![](https://img.youtube.com/vi/gasoQN41Z1c/0.jpg)](https://www.youtube.com/watch?v=gasoQN41Z1c)
-
-
 ### -Codigo
 ```
 int LED1=6;
@@ -206,6 +193,16 @@ void loop(){
     delay(20);
 }
 ```
+
+## 25.- Ultrasonidos
+
+### -Placa arduino y protoboard:
+
+[![](https://img.youtube.com/vi/gasoQN41Z1c/0.jpg)](https://www.youtube.com/watch?v=gasoQN41Z1c)
+
+
+### -Codigo
+
 
 ## S/N_1 - Control de luminosidad de leds con ultrasonido.
 
