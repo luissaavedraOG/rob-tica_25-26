@@ -177,6 +177,16 @@ void loop() {
 <img src="imagenes_rob/6.-PWM_vid.mp4" width="600" height="600" />
 </p>
 
+
+
+## 25.- Ultrasonidos
+
+### -Placa arduino y protoboard:
+
+[![](https://img.youtube.com/vi/gasoQN41Z1c/0.jpg)](https://www.youtube.com/watch?v=gasoQN41Z1c)
+
+
+### -Codigo
 ```
 int LED1=6;
 int potenciometro = A2; int cantidadluz;
