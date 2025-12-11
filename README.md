@@ -225,7 +225,15 @@ void loop(){
     delay(20);
   
 
-servo + potenciometro
+
+### S/N_2 - Control de servomotor con potenciómetro.
+
+
+### -Placa arduino y protoboard:
+
+[![](https://img.youtube.com/vi/1pZRgtCmr0o/0.jpg)](https://www.youtube.com/watch?v=1pZRgtCmr0o)
+
+### Codigo:
 
 ```#include <Servo.h>
 Servo servomotor;
