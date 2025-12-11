@@ -197,6 +197,15 @@ void loop(){
 }
 ```
 
+## S/N_1 - Control de luminosidad de leds con ultrasonido.
+
+### -Placa arduino y protoboard:
+
+[![](https://img.youtube.com/vi/1pZRgtCmr0o/0.jpg)](https://www.youtube.com/watch?v=1pZRgtCmr0o)
+
+### Codigo:
+
+```
 #include "Ultrasonic.h"
 
 int LED = 7;
@@ -223,16 +232,7 @@ void loop(){
   Serial.print("valorpotenciometro: "); Serial.print(valorpotenciometro);           Serial.print(" cantidadluz: "); Serial.print(cantidadluz);
   Serial.println();
     delay(20);
-  
-## S/N_1 - Control de luminosidad de leds con ultrasonido.
-
-### -Placa arduino y protoboard:
-
-[![](https://img.youtube.com/vi/1pZRgtCmr0o/0.jpg)](https://www.youtube.com/watch?v=1pZRgtCmr0o)
-
-### Codigo:
-
-
+  ```
 
 ## S/N_2 - Control de servomotor con potenciómetro.
 
