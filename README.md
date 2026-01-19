@@ -269,3 +269,36 @@ void loop(){
     delay(20);
 }
 ```
+
+
+S/N_3
+```
+#include <Servo.h>
+#include <Ultrasonic.h>
+
+
+
+
+#define TRIG_PIN 7
+#define ECHO_PIN 4
+
+
+Ultrasonic Distancia(TRIG_PIN, ECHO_PIN, 60000);
+
+
+void setup() {
+ Serial.begin(9600);
+Serial.println("Distancia en cm");
+}
+
+
+
+
+void loop() {
+  Serial.print(Distancia.Ranging(CM));
+Serial.println("cm");
+
+
+delay(50);
+}
+```
