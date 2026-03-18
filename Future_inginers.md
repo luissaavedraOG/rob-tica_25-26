@@ -16,3 +16,18 @@ Es una categoría de la Olimpiada Mundial de Robótica donde se construye y prog
 <p align="center">
 <img src="imagenes_rob/robot vacío .jpg" width="400" height="500" />
 </p>
+
+Necesitamos organizar el espacio para que pueda entrar:
+
+-2 Motores de corriento continua con reductoras
+
+-1 escudo
+
+-1 seromotor
+
+-1 ultrasonido 
+
+-1 portapilas con pilas de 18650 de 3,7 voltios cada una
+
+-1 placa de arduinos
+
