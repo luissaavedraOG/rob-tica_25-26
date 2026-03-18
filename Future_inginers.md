@@ -1,5 +1,8 @@
+# Future Inginers
 
-coche que sigue un carril con sesores ECO
+Es una categoría de la Olimpiada Mundial de Robótica donde se construye y programa un coche que sigue un carril con sensores ECO para recorrer un circuito sin control humano durante la prueba.
+
+## Diseño 3D del chasis del robot
 
 <p align="center">
 <img src="imagenes_rob/Coche1.png" width="700" height="700" />
@@ -16,3 +19,5 @@ coche que sigue un carril con sesores ECO
 <p align="center">
 <img src="imagenes_rob/Coche4.png" width="700" height="700" />
 </p>
+
+## Chasis del Robot final
