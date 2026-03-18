@@ -14,5 +14,5 @@ Es una categoría de la Olimpiada Mundial de Robótica donde se construye y prog
 ## Chasis del Robot final
 
 <p align="center">
-<img src="imagenes_rob/robot vació .jpg" width="100" height="100" />
+<img src="imagenes_rob/robot vacío .jpg" width="400" height="500" />
 </p>
