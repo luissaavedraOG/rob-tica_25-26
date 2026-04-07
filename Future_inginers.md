@@ -31,3 +31,8 @@ Necesitamos organizar el espacio para que pueda entrar:
 
 -1 placa de arduinos
 
+
+## Diseño 3D del chasis del robot
+
+| <img src="imagenes_rob/Coche1.png" width="700" height="700" /> | <img src="imagenes_rob/Coche2.png" width="700" height="700" /> |
+|  ---                                                     |  ---  |
