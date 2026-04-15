@@ -32,7 +32,7 @@ Necesitamos organizar el espacio para que pueda entrar:
 -1 placa de arduinos
 
 
-## Diseño 3D del chasis del robot
+## Montaje de sensores y cableado
 
 | <img src="imagenes_rob/robot_cableado1 (1).jpg" width="700" height="700" /> | <img src="imagenes_rob/robot_cableado2.jpg" width="700" height="700" /> |
 |  ---                                                     |  ---  |
