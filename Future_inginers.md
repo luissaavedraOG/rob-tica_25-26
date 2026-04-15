@@ -1,4 +1,4 @@
--# Future Inginers
+# Future Inginers
 
 Es una categoría de la Olimpiada Mundial de Robótica donde se construye y programa un coche que sigue un carril con sensores ECO para recorrer un circuito sin control humano durante la prueba.
 
