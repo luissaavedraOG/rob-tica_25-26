@@ -36,3 +36,7 @@ Necesitamos organizar el espacio para que pueda entrar:
 
 | <img src="imagenes_rob/robot_cableado1 (1).jpg" width="700" height="700" /> | <img src="imagenes_rob/robot_cableado2.jpg" width="700" height="700" /> |
 |  ---                                                     |  ---  |
+
+
+
+
